@@ -33,7 +33,7 @@
                             var index = $(this).index();
                             console.log(index);
                            if(_this.index()===$(this).index()){
-                               $oDiv.animate({left:-disTan * index }, options.speed);
+                               $oDiv.animate({left:-disTan * index }, opt.speed);
                                // console.log($oDiv.css('left'))
                            }
                         })
