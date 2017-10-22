@@ -7,17 +7,17 @@ ul, li {
     list-style: none;
 }
 
-#container {
+#container, #box {
     position: relative;
     margin: 40px auto;
     width: 600px;
     height: 200px;
     border: 1px solid darkgreen;
     overflow: hidden;
-    box-shadow: black ;
+    box-shadow: black;
 }
 
-#container .first_box {
+.first_box {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -25,15 +25,16 @@ ul, li {
     height: 40px;
 }
 
-#container .first_box li {
+.first_box li {
     width: 70px;
     height: 40px;
     background: darkmagenta;
     line-height: 40px;
     color: #fff;
+    cursor: pointer;
 }
 
-#container .second_box {
+.second_box {
     position: absolute;
     top: 40px;
     left: 0;
@@ -42,7 +43,7 @@ ul, li {
 
 }
 
-#container .second_box  p {
+.second_box p {
     float: left;
     width: 600px;
     height: 160px;
